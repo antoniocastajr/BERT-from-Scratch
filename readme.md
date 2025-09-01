@@ -1,5 +1,7 @@
 # 🤖 BERT: Pre-training and Fine-tuning from Scratch
 
+BERT was the **first deeply bidirectional model,** unlike previous models that processed text only from left-to-right or right-to-left. To achieve this bidirectionality, it introduced two novel pre-training objectives: **Masked Language Modeling (MLM),** where random tokens are hidden and predicted to capture context from both sides, and **Next Sentence Prediction (NSP),** which trains the model to understand sentence relationships.
+
 This repository presents an end-to-end implementation of **BERT (Bidirectional Encoder Representations from Transformers)**, covering both **pre-training from scratch** and **fine-tuning for sentiment classification**. The project showcases how bidirectionality is achieved in BERT, the datasets used for training, and the results obtained when applying the model to real-world tasks.
 
 ---
@@ -7,8 +9,11 @@ This repository presents an end-to-end implementation of **BERT (Bidirectional E
 ## 📌 Key Features
 
 ✅ **Pre-training BERT from scratch** with the original objectives: Masked Language Modeling (MLM) and Next Sentence Prediction (NSP) using BookCorpus 
+
 ✅ **Fine-tuning BERT** on the IMDB dataset for movie review sentiment classification  
+
 ✅ **Complete workflow in Jupyter Notebook**: from data preparation, model setup, pre-training, to fine-tuning and evaluation  
+
 ✅ **Annotated reference paper (BERT.pdf)** included for deeper understanding  
 
 ---
